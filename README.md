@@ -1,6 +1,6 @@
 # Conical-Frustum Height Calculator
 
-**The Volume to Height Converter is a simple Python script designed for personal use. It computes the height corresponding to a specified volume based on user inputs.**
+**The Elliptical Frustum Height Calculator is a Python-based tool designed to determine the height of containers shaped like elliptical frustums. By inputting parameters such as major and minor radii of the top and bottom ellipses, along with the desired volume, the calculator computes the height of the frustum efficiently.**
 
 ## Usage
 
