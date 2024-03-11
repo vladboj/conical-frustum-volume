@@ -1,4 +1,4 @@
-# Conical-Frustum Height Calculator
+# Elliptical-Frustum Height Calculator
 
 **The Elliptical Frustum Height Calculator is a Python-based tool designed to determine the height of containers shaped like elliptical frustums. By inputting parameters such as major and minor radii of the top and bottom ellipses, along with the desired volume, the calculator computes the height of the frustum efficiently.**
 
