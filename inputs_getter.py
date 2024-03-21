@@ -13,7 +13,4 @@ def get_inputs():
     for variable in variables:
         inputs[variable] = float(input(f"{variable}(cm) = "))
 
-    # place the only separate input from the dict into a variable
-    wanted_volume = float(input("wanted_volume(ml) = "))
-
-    return inputs, wanted_volume
+    return inputs

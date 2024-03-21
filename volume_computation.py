@@ -11,10 +11,13 @@ def compute_volume(a, b, c, d, h):
     return volume
 
 
-def main():
-    print("The volume of the frustum with the given dimension is " +
-          str(round(compute_volume(26, 21, 21, 16, 10) / 1000, 2)) + " liters.")
-
-
-if __name__ == "__main__":
-    main()
+# given the dimensions of the container and a height lower than the original height,
+# i want to compute the volume of the subcontainer with that respective height
+def compute_subcontainer_volume(a, b, c, d, h, new_height):
+    # firstly, compute the scaling factor using the new height in order to scale down the larger base
+    scaling_factor = new_height / h
+    new_base_semi_minor_axis = b * scaling_factor
+    new_base_semi_major_axis = a * scaling_factor
+    new_volume = compute_volume(
+        new_base_semi_major_axis, new_base_semi_minor_axis, c, d, new_height)
+    return new_volume

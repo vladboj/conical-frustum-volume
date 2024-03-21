@@ -1,12 +1,9 @@
-from operator import itemgetter
 from volume_computation import compute_volume
 
 
-def get_height(inputs, wanted_volume):
-    # destructure dictionary with the inputs into simple variables
+def get_height(A, B, C, D, H, wanted_volume):
     # a, b, and h will remain constant because of the design of the program
     # c and d will remain constant because a real life frustum container is upside down
-    A, B, C, D, H = itemgetter('a', 'b', 'c', 'd', 'h')(inputs)
 
     # TOLERANCE is the value by which the computed volume can differ from
     # the wanted volume in order for the wanted_height to be accepted
