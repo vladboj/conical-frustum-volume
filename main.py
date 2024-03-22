@@ -39,11 +39,11 @@ if __name__ == '__main__':
 # h = 22
 # ---------------------
 # for my particular container 2 the dimensions are:
-# small base: 5(major axis) 5(minor axis)
+# small base: 4.5(major axis) 4.5(minor axis)
 # large base: 7(major axis) 7(minor axis)
 # height: 13
 # a = 3.5
 # b = 3.5
-# c = 2.5
-# d = 2.5
-# h = 13
+# c = 2.25
+# d = 2.25
+# h = 14
