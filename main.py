@@ -11,14 +11,14 @@ def main():
     choice = int(input("1 -> height computation // 2 -> volume computation // 3 -> new volume computation // 4 -> exit: "))
     while choice != 4:
         if choice == 1:
-            wanted_volume = float(input("Enter wanted volume: "))
+            wanted_volume = float(input("Enter wanted volume(ml): "))
             wanted_height = get_height(a, b, c, d, h, wanted_volume)
             print(f"The height corresponding to the wanted volume is {round(wanted_height, 2)}cm.")
         elif choice == 2:
             volume = compute_volume(a, b, c, d, h)
             print(f"The volume of the eliptical frustum with the given dimensions is {round(volume, 2)}cm3.")
         elif choice == 3:
-            new_height = float(input("Enter new_height: "))
+            new_height = float(input("Enter new_height(cm): "))
             new_volume = compute_subcontainer_volume(a, b, c, d, h, new_height)
             print(f"The new volume of the eliptical frustum with the given dimensions and new height is {round(new_volume, 2)}cm3.")
         choice = int(input("1 -> height computation // 2 -> volume computation // 3 -> new volume computation // 4 -> exit: "))
