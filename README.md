@@ -1,6 +1,18 @@
-# Elliptical-Frustum Height Calculator
+# Elliptical Frustum Toolkit
 
-**The Elliptical Frustum Height Calculator is a Python-based tool designed to determine the height of containers shaped like elliptical frustums. By inputting parameters such as major and minor radii of the top and bottom ellipses, along with the desired volume, the calculator computes the height of the frustum efficiently.**
+This project provides a set of tools for working with elliptical frustums, particularly focusing on computations related to their dimensions and volumes. The user can interactively choose between various functionalities:
+
+- Height Computation: Given the desired volume, calculates the corresponding height of the frustum.
+
+- Volume Computation: Computes the volume of the elliptical frustum based on provided dimensions.
+
+- New Volume Computation: Allows for computing the volume of a subcontainer by specifying a new height.
+
+- Solute Volume Computation: Computes the volume of solute required to achieve a desired solution concentration, given the solvent's volume.
+
+Users can input their desired parameters and interactively select the operation they want to perform. The project is designed to be flexible, allowing for easy adaptation to different elliptical frustum dimensions.
+
+Additionally, the project includes predefined dimensions for two specific containers, enabling quick calculations for these cases.
 
 ## Usage
 
@@ -8,8 +20,7 @@ To use the Volume to Height Converter:
 
 - Ensure you have Python installed on your system.
 - Run the main.py script.
-- Follow the prompts to input the object's dimensions and the desired volume.
-- The script will calculate and display the height corresponding to the specified volume.
+- Follow the prompts to input the necessary values
 
 ## License
 
