@@ -20,10 +20,10 @@ To use the Volume to Height Converter:
 
 - Clone the repository.
 - Ensure you have Python installed on your system.
-- Double click the "elliptical_frustum_toolkit" shortcut.
+- Double click the "run_script.bat" file.
 - Follow the prompts.
 
-Personally, I also added the shortcut to a folder indexed by windows search for quicker access.
+Personally, I also created a shortcut to the "run_script.bat" file and added it to a folder indexed by windows search for quicker access.
 
 ## License
 
