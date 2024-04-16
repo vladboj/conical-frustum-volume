@@ -18,9 +18,12 @@ Additionally, the project includes predefined dimensions for two specific contai
 
 To use the Volume to Height Converter:
 
+- Clone the repository.
 - Ensure you have Python installed on your system.
-- Run the main.py script.
-- Follow the prompts to input the necessary values
+- Double click the "run_script.bat" file.
+- Follow the prompts.
+
+Personally, I also created a shortcut to the "run_script.bat" file and added it to a folder indexed by windows search for quicker access.
 
 ## License
 
