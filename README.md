@@ -18,9 +18,12 @@ Additionally, the project includes predefined dimensions for two specific contai
 
 To use the Volume to Height Converter:
 
+- Clone the repository.
 - Ensure you have Python installed on your system.
-- Run the main.py script.
-- Follow the prompts to input the necessary values
+- Double click the "elliptical_frustum_toolkit" shortcut.
+- Follow the prompts.
+
+Personally, I also added the shortcut to a folder indexed by windows search for quicker access.
 
 ## License
 
