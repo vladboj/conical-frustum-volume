@@ -1,30 +1,22 @@
-# Elliptical Frustum Toolkit
+## About ##
 
-This project provides a set of tools for working with elliptical frustums, particularly focusing on computations related to their dimensions and volumes. The user can interactively choose between various functionalities:
+The idea of building this project arose from a real life need of working with elliptical frustum shaped containers such as basins and glasses, while also seeming like a fun learning opportunity.
 
-- Height Computation: Given the desired volume, calculates the corresponding height of the frustum.
+## What you can do ##
 
-- Volume Computation: Computes the volume of the elliptical frustum based on provided dimensions.
+- Height Computation: Given the desired volume, calculates the corresponding height of the frustum
 
-- New Volume Computation: Allows for computing the volume of a subcontainer by specifying a new height.
+- Volume Computation: Computes the volume of the elliptical frustum based on provided dimensions
 
-- Solute Volume Computation: Computes the volume of solute required to achieve a desired solution concentration, given the solvent's volume.
+- New Volume Computation: Allows for computing the volume of a subcontainer by specifying a new height
 
-Users can input their desired parameters and interactively select the operation they want to perform. The project is designed to be flexible, allowing for easy adaptation to different elliptical frustum dimensions.
+- Solute Volume Computation: Computes the volume of solute required to achieve a desired solution concentration, given the solvent's volume
 
-Additionally, the project includes predefined dimensions for two specific containers, enabling quick calculations for these cases.
+## Usage ##
 
-## Usage
+- Clone the repository
+- Ensure you have Python installed on your system
+- Double click the `run_script.bat` file
+- Follow the prompts
 
-To use the Volume to Height Converter:
-
-- Clone the repository.
-- Ensure you have Python installed on your system.
-- Double click the "run_script.bat" file.
-- Follow the prompts.
-
-Personally, I also created a shortcut to the "run_script.bat" file and added it to a folder indexed by windows search for quicker access.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+Additionally, I also created a shortcut to the `run_script.bat` file and added it to a folder indexed by windows search for quicker access.
